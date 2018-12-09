@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Benji",
+        "birthday": "2017-10-11",
+        "ownerId": 1
+    },
+    {
+        "id": 2,
+        "name": "Bandit",
+        "birthday": "2016-01-01",
+        "ownerId": 2
+    },
+    {
+        "id": 3,
+        "name": "Blondi",
+        "birthday": "2018-04-12",
+        "ownerId": 3
+    },
+    {
+        "id": 4,
+        "name": "Bingo",
+        "birthday": "2018-10-12",
+        "ownerId": 2
+    }
+]

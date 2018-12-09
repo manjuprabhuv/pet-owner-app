@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "city": "Sydney",
+        "petId": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "city": "Perth",
+        "petId": [
+            2,
+            4
+        ]
+    },
+    {
+        "id": 3,
+        "firstName": "John",
+        "lastName": "Smith",
+        "city": "Hobart",
+        "petId": [
+            3
+        ]
+    }
+]

@@ -5,13 +5,8 @@ class ListPets extends Component {
 
 
   getOwnerName(ownerId){
-    let data = this.props.owners; 
-    console.log("data passed ---->"+data)   
-    console.log("id passed ---->"+ownerId)  
-    data.map((d, i)=> 
-    console.log(d));
-    let owner =data.find(ownr => ownr.id === ownerId);
-    console.log("Owner---->"+owner);
+    let data = this.props.owners;   
+    let owner =data.find(ownr => ownr.id === ownerId);   
     return owner.firstName+" "+owner.lastName;
   }
   render() {

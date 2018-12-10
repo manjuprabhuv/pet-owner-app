@@ -25,8 +25,7 @@ class AddPet extends Component{
       "name": this.petName.value, "birthday": this.birthdate.value,
       "ownerId": parseInt(this.ownerId.value)
     }
-    console.log(pet)
-    console.log(this.props.changeHandler);
+   
     //this.addPetForm.reset();
     this.props.changeHandler(pet,this.addPetForm);
 
